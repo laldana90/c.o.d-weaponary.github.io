@@ -1,0 +1,148 @@
+/************************** HEADER *********************************/
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+.header {
+  color: white;
+  border: 3px solid green;
+  border-radius: 10px;
+  background-color: black; }
+
+.navbar-brand {
+  color: green;
+  font-size: 4vw;
+  font-weight: bold; }
+  .navbar-brand:hover {
+    color: green; }
+
+.navbar {
+  display: flex;
+  color: white;
+  justify-content: center;
+  padding-bottom: 15px;
+  text-decoration: none;
+  flex-grow: 1;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 30px; }
+
+.navbar-nav {
+  display: flex;
+  color: white;
+  justify-content: right;
+  text-decoration: none;
+  flex-grow: 1; }
+  .navbar-nav .nav-link {
+    color: white;
+    font-size: 2vw;
+    padding: 0 2rem; }
+  .navbar-nav .hq:hover {
+    border: 2px solid green;
+    border-radius: 15px;
+    box-shadow: 3px 3px green; }
+  .navbar-nav .mw:hover {
+    border: 2px solid blue;
+    border-radius: 15px;
+    box-shadow: 3px 3px blue; }
+  .navbar-nav .cw:hover {
+    border: 2px solid red;
+    border-radius: 15px;
+    box-shadow: 3px 3px red; }
+  .navbar-nav .vgrd:hover {
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+    box-shadow: 3px 3px goldenrod; }
+
+.navbar-toggler {
+  color: white;
+  background-color: white; }
+
+/*************** BODY ******************/
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Space Mono', monospace;
+  padding: 5px;
+  margin: 5px; }
+
+.mw2-home {
+  width: 100%;
+  object-fit: cover; }
+
+.topSection {
+  text-align: center; }
+  .topSection h1 {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .topSection iframe {
+    border: 2px solid green;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 70vw;
+    height: 70vh; }
+  .topSection p {
+    font-size: 4vh; }
+
+.mainSection {
+  border: 3px solid green;
+  border-radius: 20px;
+  text-align: center; }
+  .mainSection p {
+    font-size: 4vw; }
+
+.mainList {
+  margin: 10px;
+  padding: 10px; }
+  .mainList img:hover {
+    animation: zoom-in 12s linear infinite; }
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(0.8, 0.8); }
+  50% {
+    transform: scale(1.1, 1.1); }
+  100% {
+    transform: scale(0.8, 0.8); } }
+
+.mlmw {
+  display: inline-block;
+  border: 2px solid blue;
+  height: 20vw;
+  width: auto;
+  margin: 10px; }
+  .mlmw:hover {
+    box-shadow: 4px 4px blue; }
+
+.mlcw {
+  display: inline-block;
+  border: 2px solid red;
+  height: 20vw;
+  width: auto;
+  margin: 10px; }
+  .mlcw:hover {
+    box-shadow: 4px 4px red; }
+
+.mlvgrd {
+  display: inline-block;
+  border: 2px solid goldenrod;
+  height: 20vw;
+  width: auto;
+  margin: 10px; }
+  .mlvgrd:hover {
+    box-shadow: 4px 4px goldenrod; }
+
+.footer {
+  background-color: black;
+  text-align: center;
+  padding: 30px;
+  color: white;
+  border: 3px solid black;
+  border-radius: 10px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 99%; }
+
+.tituloFooter {
+  color: green;
+  font-size: 4vh;
+  font-weight: bold; }

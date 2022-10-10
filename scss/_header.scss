@@ -1,0 +1,77 @@
+/************************** HEADER *********************************/
+
+.header {
+    color: white;
+    border: 3px solid green;
+    border-radius: 10px;
+    background-color: black;
+  }
+
+.navbar-brand {
+    color: green;
+    font-size: 4vw;
+    font-weight: bold;
+    &:hover {
+        color: green;
+    }
+}
+
+.navbar {
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding-bottom: 15px;
+    text-decoration: none;
+    flex-grow: 1;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 30px;
+  }
+  .navbar-nav {
+    display: flex;
+    color: white;
+    justify-content: right;
+    text-decoration: none;
+    flex-grow: 1;
+    .nav-link {
+    color: white;
+    font-size: 2vw;
+    padding: 0 2rem;
+}
+
+.hq:hover {
+    border: 2px solid green;
+    border-radius: 15px;
+    box-shadow: 3px 3px green;
+}
+
+.mw:hover {
+    border: 2px solid blue;
+    border-radius: 15px;
+    box-shadow: 3px 3px blue;
+}
+
+.cw:hover {
+    border: 2px solid red;
+    border-radius: 15px;
+    box-shadow: 3px 3px red;
+}
+
+.vgrd:hover {
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+    box-shadow: 3px 3px goldenrod;
+}
+
+
+}
+
+.navbar-toggler {
+    color: white;
+    background-color: white;
+  }
+
+
+
+
+  
