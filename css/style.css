@@ -55,7 +55,7 @@
   color: white;
   background-color: white; }
 
-/*************** BODY ******************/
+/*************** BODY-INDEX ******************/
 body {
   background-color: black;
   color: white;
@@ -106,6 +106,7 @@ body {
 .mlmw {
   display: inline-block;
   border: 2px solid blue;
+  border-radius: 60px;
   height: 20vw;
   width: auto;
   margin: 10px; }
@@ -115,6 +116,7 @@ body {
 .mlcw {
   display: inline-block;
   border: 2px solid red;
+  border-radius: 60px;
   height: 20vw;
   width: auto;
   margin: 10px; }
@@ -124,11 +126,79 @@ body {
 .mlvgrd {
   display: inline-block;
   border: 2px solid goldenrod;
+  border-radius: 60px;
   height: 20vw;
   width: auto;
   margin: 10px; }
   .mlvgrd:hover {
     box-shadow: 4px 4px goldenrod; }
+
+/********************** BODY-MW **************************/
+.topSectionMW h1 {
+  text-align: center;
+  font-size: 4vw;
+  font-weight: bold;
+  color: midnightblue;
+  text-shadow: 2px 2px grey; }
+
+.topSectionMW p {
+  text-align: right;
+  margin-top: 5px;
+  font-size: 2vw; }
+
+.topSectionMW img {
+  width: 100%;
+  object-fit: cover;
+  animation-name: fade-in;
+  animation-duration: 6s; }
+
+@keyframes fade-in {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.mwARs {
+  border: 3px ridge midnightblue; }
+  .mwARs .card {
+    margin: 15px;
+    padding: 10px; }
+  .mwARs h2 {
+    text-align: center;
+    font-size: 3vw;
+    text-shadow: 2px 2px midnightblue; }
+  .mwARs h3 {
+    color: black; }
+  .mwARs p {
+    color: gray; }
+  .mwARs .btn {
+    background-color: black;
+    color: whitesmoke; }
+
+@media only screen and (max-width: 640px) {
+  .navbar-brand {
+    font-size: 17px;
+    margin-left: -30px; }
+  .quoteMW {
+    font-size: 4vw; }
+  .card-title {
+    font-size: 10px;
+    text-align: left;
+    font-weight: bolder;
+    margin-left: -20px; }
+  .card-body p {
+    font-size: 8px;
+    margin-left: -20px;
+    font-weight: bold; }
+  .btn {
+    font-size: 7px;
+    margin-left: -10px; }
+  .card {
+    width: 95%;
+    height: 50%;
+    margin: 1px; }
+    .card img {
+      width: 100%; } }
 
 .footer {
   background-color: black;
@@ -141,6 +211,9 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 99%; }
+  .footer .footlog {
+    width: 10%;
+    height: 30%; }
 
 .tituloFooter {
   color: green;
